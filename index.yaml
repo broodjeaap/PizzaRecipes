@@ -1,0 +1,7 @@
+recipes:
+  - name: "Neapolitan Doughs"
+    url: "https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/neapolitan/index.yaml"
+  - name: "New York Doughs"
+    url: "https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/new_york/index.yaml"
+  - name: "Other Doughs"
+    url: "https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/other/index.yaml"
