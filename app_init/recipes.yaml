@@ -1,0 +1,59 @@
+recipes:
+  - name: "Neapolitan Day Dough"
+    image: https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/neo_day_pizza.png
+    description: >
+      A Neapolitan Style pizza prepared in a day.  
+    ingredients:
+      - name: flour
+        unit: g
+        value: 0.596
+      - name: water
+        unit: ml
+        value: 0.366
+      - name: salt
+        unit: g
+        value: 0.018
+      - name: yeast
+        unit: g
+        value: 0.02
+    steps:
+      - name: Make the dough
+        wait:
+          description: How many hours of room temperature rise?
+          unit: hours
+          min: 4
+          max: 6
+        description: >
+          Combine all the ingredients to make the dough, we start with just the water and salt and add the yeast after adding some of the flour to not kill the yeast.
+        substeps:
+          - name: Salt+Water
+            description: >
+              Combine the salt and the water in a bowl, stir until the salt dissolves.  
+              ![saltwater](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/neo_day_saltwater.png)
+          - name: +20% flour
+            description: >
+              Add ~20% of the flour to the water/salt mixture and mix everything together.  
+              ![flour20](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/neo_day_pre_yeast.png)
+          - name: Yeast
+            description: >
+              Add the yeast to the mixture.
+              ![yeast](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/neo_day_yeast.png)
+          - name: Flour
+            description: >
+              Add the rest of the flour to the mixture, knead the dough for 15-20 minutes.  
+              You can knead the dough with your hands, use a stand mixer or a food processor.  
+
+              [Kneading by hand.](https://www.youtube.com/watch?v=l9avZp3xFNU)  
+
+              The result should look something like this:  
+
+              ![dough](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/neo_day_dough.png)
+
+          - name: Rise
+            description: >
+              Split the dough into doughballs and place the dough in a sealed/covered container at room temperature.  
+
+              ![How to make dough balls](https://www.youtube.com/watch?v=oZxNbL5XB7w)
+      - name: Pizza Time!
+        description: >
+          Time to make pizza!
