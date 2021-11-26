@@ -60,7 +60,7 @@ recipes:
         description: >
           Time to make pizza!
   - name: "Neapolitan Cold Rise"
-    image: https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea__pizza.png
+    image: https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_cold_pizza.png
     description: >
       A Neapolitan Style pizza with a multi day cold rise, giving a light and fluffy dough.
 
