@@ -1,10 +1,10 @@
 recipes:
   - name: "Neapolitan Day Dough"
-    image: https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_day_pizza.png
+    image: https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_day_pizza.png
     description: >
       A Neapolitan Style pizza prepared in a day.  
 
-      ![cold_dough](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_day_pizza.png)
+      ![cold_dough](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_day_pizza.png)
     ingredients:
       - name: flour
         unit: g
@@ -31,15 +31,15 @@ recipes:
           - name: Salt+Water
             description: >
               Combine the salt and the water in a bowl, stir until the salt dissolves.  
-              ![saltwater](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_day_saltwater.png)
+              ![saltwater](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_day_saltwater.png)
           - name: +20% flour
             description: >
               Add ~20% of the flour to the water/salt mixture and mix everything together.  
-              ![flour20](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_day_pre_yeast.png)
+              ![flour20](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_day_pre_yeast.png)
           - name: Yeast
             description: >
               Add the yeast to the mixture.
-              ![yeast](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_day_yeast.png)
+              ![yeast](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_day_yeast.png)
           - name: Flour
             description: >
               Add the rest of the flour to the mixture, knead the dough for 15-20 minutes.  
@@ -49,7 +49,7 @@ recipes:
 
               The result should look something like this:  
 
-              ![dough](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_day_dough.png)
+              ![dough](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_day_dough.png)
 
           - name: Rise
             description: >
@@ -60,11 +60,11 @@ recipes:
         description: >
           Time to make pizza!
   - name: "Neapolitan Cold Rise"
-    image: https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_cold_pizza.png
+    image: https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_cold_pizza.png
     description: >
       A Neapolitan Style pizza with a multi day cold rise, giving a light and fluffy dough.
 
-      ![cold_dough](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_cold_pizza.png)
+      ![cold_dough](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_cold_pizza.png)
     ingredients:
       - name: flour
         unit: g
@@ -99,29 +99,29 @@ recipes:
             description: >
               Combine the salt and the water in a bowl, stir until the salt dissolves.
 
-              ![salt_water](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_cold_salt_water.png)
+              ![salt_water](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_cold_salt_water.png)
           - name: +20% flour
             description: >
               Add ~20% of the flour to the water/salt mixture and mix everything together.
 
-              ![pre_yeast](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_cold_pre_yeast.png)
+              ![pre_yeast](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_cold_pre_yeast.png)
           - name: Yeast
             description: >
               Add the yeast to the mixture.
 
-              ![yeast](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_cold_yeast.png)
+              ![yeast](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_cold_yeast.png)
           - name: Flour
             description: >
               Add the rest of the flour to the mixture, knead the dough for 15-20 minutes.  
 
               You can use a mixer, or do it by hand, see [this video](https://www.youtube.com/watch?v=l9avZp3xFNU) for in depth instructions on kneading by hand.
 
-              ![kneaded](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_cold_kneaded.png)
+              ![kneaded](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_cold_kneaded.png)
           - name: Fridge
             description: >
               Place the dough in a sealed/covered container in the fridge.  
 
-              ![kneaded](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_cold_fridge.png)
+              ![kneaded](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_cold_fridge.png)
       - name: Warm rise
         wait:
           description: How many hours of room temperature rise?
@@ -139,8 +139,8 @@ recipes:
 
               [How to Make PIZZA DOUGH BALLS like a World Best Pizza Chef](https://www.youtube.com/watch?v=oZxNbL5XB7w)
 
-              ![kneaded](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_cold_ball.png)
+              ![kneaded](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_cold_ball.png)
       - name: Pizza Time!
         description: >
           Time to make pizza!
-          ![pizza](https://gitea.broodjeaap.net/broodjeaap/PizzaRecipes/raw/branch/master/app_init/images/nea_cold_pizza2.png)
+          ![pizza](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_cold_pizza2.png)
