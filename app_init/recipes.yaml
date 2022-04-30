@@ -144,3 +144,71 @@ recipes:
         description: >
           Time to make pizza!
           ![pizza](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_cold_pizza2.png)
+  - name: "New York Dough"
+    image: https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_day_pizza.png
+    description: >
+      A New York style dough, a thin flavourful crust.  
+      Pretty much copied from [Joshua Weissman's exelent recipe](https://www.joshuaweissman.com/post/real-new-york-style-pizza-at-home), so check that out for a more in-depth recipe.     
+
+      ![cold_dough](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_day_pizza.png)
+    ingredients:
+      - name: flour
+        unit: g
+        value: 0.584615385
+      - name: water
+        unit: ml
+        value: 0.379692308
+      - name: salt
+        unit: g
+        value: 0.011692308
+      - name: yeast
+        unit: g
+        value: 0.008615385
+      - name: sugar
+        unit: g
+        value: 0.015384615
+    steps:
+      - name: Make the dough
+        wait:
+          description: How many days cold rise?
+          unit: days
+          min: 1
+          max: 3
+        description: >
+          Combine all the dry ingredients in a bowl, and add the yeast to the (lukewarm) water.  
+          Then add the water with the yeast to the dry ingredients and mix by hand
+        substeps:
+          - name: Dry
+            description: >
+              Combine the flour, salt and sugar in a bowl
+          - name: Water+yeast
+            description: >
+              Add the yeast to the (warm) water and let it sit for a while.
+          - name: Yeast
+            description: >
+              Add the water (with yeast) to the dry ingredients and mix everything until you have smooth dough.
+          - name: Fridge
+            description: >
+              Transfer the dough to a different bowl with some olive oil, and place in the fridge.
+      - name: Warm rise
+        wait:
+          description: How many hours of room temperature rise?
+          unit: hours
+          min: 3
+          max: 6
+        description: >
+          Take the dough out of the fridge and let it come to room temperature for a final rise before baking
+        substeps:
+          - name: Split
+            description: >
+              Split the dough into smaller balls and place them into a covered/sealed container(s)
+              
+              For video instructions on how to make Dough balls check out this video:  
+
+              [How to Make PIZZA DOUGH BALLS like a World Best Pizza Chef](https://www.youtube.com/watch?v=oZxNbL5XB7w)
+
+              ![kneaded](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_cold_ball.png)
+      - name: Pizza Time!
+        description: >
+          Time to make pizza!
+          ![pizza](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_cold_pizza2.png)
