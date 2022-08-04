@@ -1,4 +1,126 @@
 recipes:
+  - name: "Poolish"
+      image: https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_poolish_pizza.png
+      description: >
+        A Neapolitan Style pizza with a two cold rises, first as a 'poolish', then again as the complete dough.  
+
+        The recipe is based on this excelent video from Vito Lacopelli:  
+        [HOW TO MAKE NEXT LEVEL PIZZA DOUGH | DOUBLE FERMENTED + POOLISH | Vito Iacopelli](https://www.youtube.com/watch?v=n1O3uHPCOLA)  
+        
+        ![cold_dough](https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_poolish_pizza2.png)
+      ingredients:
+        - name: Poolish Flour
+          unit: g
+          value: 0.171919771
+        - name: Poolish Water
+          unit: ml
+          value: 0.171919771
+        - name: Honey
+          unit: g
+          value: 0.00286533
+        - name: yeast
+          unit: g
+          value: 0.00286533
+        - name: Flour
+          unit: g
+          value: 0.401146132
+        - name: Water
+          unit: ml
+          value: 0.229226361
+        - name: Salt
+          unit: g
+          value: 0.014326648
+        - name: Yeast
+          unit: g
+          value: 0.005730659
+      steps:
+        - name: Make the Poolish
+          wait:
+            description: How many minutes warm poolish rise?
+            unit: minutes
+            min: 30
+            max: 60
+          description: >
+            Combine the poolish flour, poolish water, honey and yeast to create the poolish.  
+
+            [Make to poolish](https://youtu.be/u7Hd6ZzKgBM?t=97)
+          substeps:
+            - name: Flour + Yeast
+              description: >
+                Combine the flour and yeast and mix.
+            - name: The rest
+              description: >
+                Add the honey to the water in your mixing bowl, add in the flour/yeast mix and thoroughly combine until it's a homogeneous (ver sticky) dough.               
+        - name: Poolish Fridge
+          wait:
+            description: How many hours of poolish cold rise?
+            unit: hours
+            min: 16
+            max: 24
+          description: >
+            Transfer the poolish to the fridge for an overnight cold rise.
+        - name: Poolish room temperature
+          wait:
+            description: How long to let the dough come to room temperature?
+            unit: minutes
+            min: 30
+            max: 60
+          description: >
+            Take the poolish out of the fridge and let it rest come up to room temperature.
+        - name: Make the poolish dough
+          wait:
+            description: How many minutes for the gluten development?
+            unit: minutes
+            min: 15
+            max: 30
+          description: >
+            Combine the rest of the ingredients to create turn the poolish into a dough.  
+
+            [Make to dough](https://youtu.be/u7Hd6ZzKgBM?t=199)
+          substeps:
+            - name: Poolish + water
+              description: >
+                Add the water to the poolish, thoroughly mixing so that most of the poolish is dissolved into the water.
+            - name: Salt+Oil
+              description: >
+                Add the Salt and oil to the poolish.
+            - name: Flour and Kneading
+              description: >
+                Add the flour to the poolish.  
+                If you don't have a dough mixer, you can use a spoon to mix everything together at first, then switch to your hands.
+                This is a VERY sticky dough, don't be discouraged, keep going for 10-15 minutes.  
+            - name: Prepare for gluten development
+              description: >
+                Cover the dough or place it in a bowl you can cover to let it rest for a short time.
+        - name: Second cold rise
+          wait:
+            description: How many hours of cold rise?
+            unit: hours
+            min: 16
+            max: 24
+          description: >
+            Add a little bit of olive oil to a big bowl, coating all sides, then transfer your kneaded dough then put it in the fridge for the second cold rise.
+        - name: Before making the dough balls
+          wait:
+            description: How long to let the dough come to room temperature?
+            unit: minutes
+            min: 15
+            max: 60
+          description: >
+            Take the dough out of the fridge to let it come to room temperature before making the dough balls.
+        - name: Making the dough balls
+          wait:
+            description: How many hours of room temperature rise?
+            unit: hours
+            min: 1
+            max: 4
+          description: >
+            Split the dough into smaller dough balls.  
+
+            [Making dough balls](https://youtu.be/u7Hd6ZzKgBM?t=675)
+        - name: Pizza Time!
+          description: >
+            Time to make your poolish pizza!
   - name: "Neapolitan Day Dough"
     image: https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_day_pizza.png
     description: >
