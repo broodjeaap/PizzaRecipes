@@ -1,5 +1,5 @@
 recipes:
-  - name: "Poolish"
+  - name: "Poolish Double Rise"
     image: https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_poolish_pizza.png
     description: >
       A Neapolitan Style pizza with a two cold rises, first as a 'poolish', then again as the complete dough.  
