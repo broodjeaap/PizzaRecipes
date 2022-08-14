@@ -3,6 +3,7 @@ recipes:
     image: https://raw.githubusercontent.com/broodjeaap/PizzaRecipes/master/app_init/images/nea_poolish_pizza.png
     description: >
       A Neapolitan Style pizza with a two cold rises, first as a 'poolish', then again as the complete dough.  
+      This dough has many steps, but the end result is definitely worth the extra effort.  
 
       The recipe is based on this excelent video from Vito Lacopelli:  
       [HOW TO MAKE NEXT LEVEL PIZZA DOUGH | DOUBLE FERMENTED + POOLISH | Vito Iacopelli](https://www.youtube.com/watch?v=n1O3uHPCOLA)  
