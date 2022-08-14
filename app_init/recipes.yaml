@@ -11,28 +11,28 @@ recipes:
     ingredients:
       - name: Poolish Flour
         unit: g
-        value: 0.171919771
+        value: 0.171919
       - name: Poolish Water
         unit: ml
-        value: 0.171919771
+        value: 0.171919
       - name: Honey
         unit: g
-        value: 0.00286533
-      - name: yeast
-        unit: g
-        value: 0.00286533
-      - name: Flour
-        unit: g
-        value: 0.401146132
-      - name: Water
-        unit: ml
-        value: 0.229226361
-      - name: Salt
-        unit: g
-        value: 0.014326648
+        value: 0.002865
       - name: Yeast
         unit: g
-        value: 0.005730659
+        value: 0.002865
+      - name: Flour
+        unit: g
+        value: 0.401146
+      - name: Water
+        unit: ml
+        value: 0.229226
+      - name: Salt
+        unit: g
+        value: 0.014326
+      - name: Olive Oil
+        unit: ml
+        value: 0.005730
     steps:
       - name: Make the Poolish
         wait:
