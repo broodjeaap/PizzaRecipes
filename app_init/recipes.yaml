@@ -54,7 +54,7 @@ recipes:
               Add the honey to the water in your mixing bowl, add in the flour/yeast mix and thoroughly combine until it's a homogeneous (ver sticky) dough.        
       - name: Make the dough
         wait:
-          description: How many hours of cold rise?
+          description: How many hours of dough cold rise?
           unit: hours
           min: 16
           max: 24
