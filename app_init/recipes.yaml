@@ -24,10 +24,10 @@ recipes:
         value: 0.002865
       - name: Flour
         unit: g
-        value: 0.436146
+        value: 0.446146
       - name: Water
         unit: ml
-        value: 0.194226
+        value: 0.184226
       - name: Salt
         unit: g
         value: 0.014326
